@@ -30,7 +30,7 @@ class CardsSelctionVC: UIViewController {
     }
     
     func startTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector(showRandomImage), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(showRandomImage), userInfo: nil, repeats: true)
     }
     
     @objc func showRandomImage() {
