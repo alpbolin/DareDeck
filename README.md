@@ -5,7 +5,7 @@ DareDeck is a Swift-based card game app designed to add excitement and challenge
 ## Features
 
 - **Card Representation**: Each card in the deck corresponds to a number:
-  - Ace = 1
+  - Ace = 14
   - Number cards = Their respective values (2 through 10)
   - Jack = 11
   - Queen = 12
